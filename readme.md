@@ -34,9 +34,17 @@ git commit -m 'mensaje'
 ```
 git log --oneline
 ```
- **Git reset** quitar cambios en stage .
+ **Git reset** quitar cambios en stage. en vez de HEAD podemos poner el identificador del commit y pasa el commit a stage. si hacemos hard reset pasa al inicio 
 ```
 git reset HEAD
+```
+
+```
+git reset <idcomit>
+```
+
+```
+git reset --hard <idcomit>
 ```
 
 ### Pre-requisitos 📋
