@@ -47,6 +47,15 @@ git reset <idcomit>
 git reset --hard <idcomit>
 ```
 
+ **Git remote** agregar la carpeta de github
+```
+git remote add origin <url>
+```
+
+ **Git push** subur los commits
+```
+git push -u origin master
+```
 ### Pre-requisitos 📋
 
 _Instalacion de GIT_
