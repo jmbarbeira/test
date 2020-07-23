@@ -16,11 +16,14 @@ git init
 git status
 ```
 
- **Git add** actualiza o agrega al indice al contenido. "Paso a stage"
+ **Git add** actualiza o agrega al indice al contenido. "Paso a stage" con todo
 ```
 git add -A
 ```
-
+ **Git add** actualiza o agrega al indice al contenido. "Paso a stage" parcial
+```
+git add <archivo>
+```
 
  **Git commit** Asienta los cambios agrupados. "Commit". 
 ```
@@ -31,11 +34,11 @@ git commit -m 'mensaje'
 ```
 git log
 ```
+ **Git reset** quitar cambios en stage 
+```
+git reset HEAD
+```
 
- **Git log** Info de los commits realizados. 
-```
-git log
-```
 ### Pre-requisitos 📋
 
 _Instalacion de GIT_
