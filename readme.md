@@ -8,17 +8,23 @@ _Listado de comandos que utilizaremos con GIT/GitHub_
 
  **Git status** Inicializamos un proyecto nuevo y se crean la carpeta .Git. Crea un nuevo repositorio.
 ```
-Git init
+git init
 ```
 
- **Git status** Inicializamos un proyecto nuevo y se crean la carpeta .Git. Crea un nuevo repositorio.
+ **Git status** Estado del repositorio.
 ```
-Git status
+git status
 ```
 
- **Git add** Inicializamos un proyecto nuevo y se crean la carpeta .Git. Crea un nuevo repositorio.
+ **Git add** actualiza o agrega al indice al contenido. "Paso a stage"
 ```
-Git add
+git add -A
+```
+
+
+ **Git commit** Asienta los cambios agrupados. "Commit". 
+```
+git commit -m 'mensaje'
 ```
 ### Pre-requisitos 📋
 
