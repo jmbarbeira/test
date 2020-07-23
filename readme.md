@@ -32,9 +32,9 @@ git commit -m 'mensaje'
 
  **Git log** Info de los commits realizados. 
 ```
-git log
+git log --oneline
 ```
- **Git reset** quitar cambios en stage 
+ **Git reset** quitar cambios en stage .
 ```
 git reset HEAD
 ```
