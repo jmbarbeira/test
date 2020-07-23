@@ -49,12 +49,12 @@ git reset --hard <idcomit>
 
  **Git remote** agregar la carpeta de github
 ```
-git remote add origin <url>
+git remote add <nombre repo> <url repo>
 ```
 
  **Git push** subur los commits
 ```
-git push -u origin master
+git push -u <nombre repo> <branch>
 ```
 ### Pre-requisitos 📋
 
