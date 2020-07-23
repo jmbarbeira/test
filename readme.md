@@ -27,6 +27,10 @@ git add -A
 git commit -m 'mensaje'
 ```
 
+ **Git log** Info de los commits realizados. 
+```
+git log
+```
 
  **Git log** Info de los commits realizados. 
 ```
